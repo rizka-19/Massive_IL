@@ -1,0 +1,12 @@
+#root {
+  margin: 2 auto;
+  padding: 2rem;
+  align-items: center;
+  justify-content: center;
+  font: Poppins; 
+}
+.button-container {
+  display: flex;
+  justify-content: right;
+  margin-top: 12px;
+}
