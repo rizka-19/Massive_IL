@@ -1,0 +1,82 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
+
+:root {
+  --font-color: #393939;
+}
+
+* {
+  font-family: "Poppins", sans-serif;
+}
+
+.body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.regis-container {
+  background: #ffffff;
+  width: 70%;
+  height: 82%;
+  border-radius: 10px;
+  box-shadow: 5px 5px 20px 20px rgba(2, 2, 2, 0.1);
+  display: flex;
+}
+
+.regis-form {
+  margin: 30px 60px;
+  text-align: left;
+  width: 100%;
+}
+
+.form-group {
+  margin-top: 7px;
+  margin-bottom: 8px;
+  text-align: left;
+  font-size: 14px;
+}
+
+.regis-form h2 {
+  text-align: center;
+  font-size: 24px;
+  margin-bottom: 30px;
+  color: #34c76f;
+  font-weight: 600;
+}
+
+.label {
+  display: block;
+  font-weight: 500;
+  margin-bottom: 8px;
+  color: #ff2020;
+}
+
+.regis-form h6 {
+  text-align: left;
+  padding-top: 20px;
+}
+
+.regis-btn Button {
+  background: #34c76f;
+  width: 100%;
+  color: #fff;
+  margin-top: 10px;
+  padding: 6px 20px;
+  border: none;
+  border-radius: 0;
+}
+
+.regis-btn Button:hover {
+  background-color: #34c76f;
+}
+
+.img-regis img {
+  padding: 0;
+  margin-left: 170px;
+  width: 76.67%;
+  height: 545px;
+  border-radius: 10px;
+  float: right;
+}
