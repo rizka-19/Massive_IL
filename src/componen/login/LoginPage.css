@@ -1,0 +1,102 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
+
+:root {
+  --font-color: #393939;
+}
+
+* {
+  font-family: "Poppins", sans-serif;
+}
+
+.body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.login-container {
+  background: #ffffff;
+  width: 70%;
+  height: 75%;
+  border-radius: 10px;
+  box-shadow: 5px 5px 20px 20px rgba(2, 2, 2, 0.1);
+  display: flex;
+}
+
+.lgn-btn {
+  margin-bottom: 10px;
+}
+
+.lgn-btn Button:hover {
+  background-color: #34c76f;
+  color: white;
+}
+
+.lgn-btn Button {
+  color: #393939;
+  font-size: 14px;
+  border-color: #393939;
+  justify-content: center;
+  width: 100%;
+  border-radius: 25px;
+}
+
+.login-form {
+  margin: 70px 60px;
+  text-align: left;
+  width: 100%;
+}
+
+.form-group {
+  margin-top: 25px;
+  text-align: left;
+}
+
+.login-form h2 {
+  text-align: center;
+  font-size: 24px;
+  margin-bottom: 40px;
+  color: #34c76f;
+  font-weight: 600;
+}
+.icon {
+  width: 1.5rem;
+  height: 1.5rem;
+  margin-right: 8px;
+}
+.label {
+  display: block;
+  font-weight: 500;
+  margin-bottom: 8px;
+  color: #ff2020;
+}
+
+.login-form h6 {
+  text-align: left;
+  padding-top: 20px;
+}
+
+.login-btn Button {
+  background: #34c76f;
+  width: 100%;
+  color: #fff;
+  margin-top: 10px;
+  padding: 6px 20px;
+  border: none;
+  border-radius: 0;
+}
+
+.login-btn Button:hover {
+  background-color: #34c76f;
+}
+
+.img-right img {
+  padding: 0;
+  margin-left: 170px;
+  width: 70%;
+  height: 499px;
+  border-radius: 10px;
+  float: right;
+}
